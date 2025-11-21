@@ -18,16 +18,24 @@ export function PremierSponsors() {
     {
       title: "Greek Islands Restaurant",
       icon: Heart,
-      description: "Greek Islands Restaurant brings authentic Mediterranean flavors and warmth to our community. As a steadfast supporter of local events, they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration.",
+      description: "Greek Islands Restaurant brings authentic Mediterranean flavors and warmth to our community. As a ",
       color: "text-green-600",
-      link: undefined
+      descriptionLink: {
+        text: "steadfast supporter of local events,",
+        url: "https://www.gilsands.com/"
+      },
+      descriptionSuffix: " they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration."
     },
     {
       title: "First Page Marketing",
       icon: Building2,
-      description: "First Page Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and culture of Abbotsford through strategic marketing support and creative vision.",
+      description: "First Page Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and ",
       color: "text-purple-500",
-      link: undefined
+      descriptionLink: {
+        text: "culture of Abbotsford",
+        url: "https://www.fpagemarketing.com/"
+      },
+      descriptionSuffix: " through strategic marketing support and creative vision."
     }
   ];
 
