@@ -1,0 +1,288 @@
+FULL DESIGNER PROMPT — Abbotsford Cherry Blossom Festival Website
+Project Overview
+
+Design a brand new website for the Abbotsford Cherry Blossom Festival — a spring community celebration inspired by the blossoms across Abbotsford.
+The website should feel fresh, elegant, artistic, and nature-inspired, with clear emphasis on community culture, outdoor events, and blossom discovery.
+
+The overall tone should match the style and structure of VCBF.ca, but customized to Abbotsford’s identity.
+
+VISUAL + BRAND GUIDELINES
+Aesthetic
+
+Airy, soft, nature-focused spring design.
+
+Blend of cherry blossom pinks and Fraser Valley greens.
+
+Photography of Abbotsford blossom locations: Mill Lake, Clearbrook Park, Historic Downtown, Downes Road cherry corridors.
+
+Color Palette
+
+Sakura Pink — #f7b7c3
+
+Blossom White — #fff8f9
+
+Fraser Valley Green — #6e9e5d
+
+Petal Purple — #c4a8d6
+
+Soft Sky Blue — #cbe2ff
+
+Typography
+
+Headlines: Elegant serif or display font
+
+Subheadings: Soft geometric sans
+
+Body: Clean sans-serif (e.g., Inter, Lato, or Nunito)
+
+Style: warm, friendly, artistic
+
+Imagery Style
+
+Close-up cherry blossoms
+
+People enjoying events under trees
+
+Abbotsford-specific scenery
+
+Light bokeh, soft-focus photography
+
+Petal textures and gradients
+
+HOMEPAGE STRUCTURE
+1. HERO SECTION
+
+Full-width cherry blossom hero image or video.
+
+Overlay text:
+
+Abbotsford Cherry Blossom Festival
+
+Celebrating the beauty of blossoms and the heart of our community.
+
+Buttons:
+
+View 2026 Events (primary)
+
+Find Blossoms Near You (secondary)
+
+Optional Hero Elements:
+
+Petal animation drifting subtly
+
+Soft gradient overlay
+
+2. PREMIER SPONSOR SECTION (DIRECTLY BELOW HERO)
+
+This appears immediately under the hero.
+
+Section Title
+Presented by Our Premier Sponsors
+
+Celebrating the supporters who help bring Abbotsford’s Cherry Blossom Festival to life.
+
+Layout
+
+Three horizontal sponsor cards (stack vertically on mobile)
+
+Soft white or ultra-light pink background
+
+Subtle blossom borders or petal texture
+
+Light drop-shadow for elevation
+
+Card Requirements
+Card 1 — Top Mortgage Broker
+
+Title: Top Mortgage Broker
+
+Prominent placement (leftmost or slightly larger)
+
+Placeholder: sponsor logo
+
+Subtext: “Recognizing outstanding support for our community.”
+
+Card 2 — Top Community Partner
+
+Placeholder: community-oriented business logo
+
+Subtext: “Strengthening Abbotsford through generosity and collaboration.”
+
+Card 3 — Top Cultural Contributor
+
+Placeholder: arts, culture, or heritage organization
+
+Subtext: “Honouring those uplifting local arts and culture.”
+
+Responsive
+
+Desktop: 3 cards side-by-side
+
+Tablet: 2 + 1
+
+Mobile: stacked vertical
+
+3. FESTIVAL ANNOUNCEMENT BLOCK
+Headline
+March–April 2026
+
+Body Copy:
+A warm introduction explaining the festival’s purpose, its community roots, and the joy of celebrating blossoms in Abbotsford as the city reawakens for spring.
+
+Background: Soft pink gradient or blossom texture.
+
+4. WHAT’S ON — FEATURED EVENTS
+
+Grid of featured event cards (image + title + short teaser).
+Events include:
+
+The Big Blossom Picnic
+
+Abbotsford Sakura Market
+
+Blossoms After Dark (Night Light Walk)
+
+Tree Talks & Guided Walks
+
+Blossom Bike Ride
+
+Kids Blossom Art Zone
+
+Pop-Up Performances
+
+Each card links to a full event page.
+
+Visual Style:
+Rounded corners, soft shadow, subtle blossom overlay.
+
+5. BLOSSOM FINDER — INTERACTIVE MAP
+Headline
+Find Cherry Blossoms Near You
+
+CTA button: Launch Blossom Map
+
+Map should include:
+
+Blossom hotspots
+
+Bloom timing indicators
+
+Accessible pathways
+
+Photo-worthy locations
+
+Tree species information
+
+Style: minimalist map UI with soft colors.
+
+6. COMMUNITY PARTNER GRID
+
+A section showcasing supporting organizations and local businesses.
+
+Clean multi-row grid with logos.
+Spacing should feel airy and not cluttered.
+
+7. GET INVOLVED SECTION
+
+Three large engagement cards:
+
+Volunteer
+
+Sponsor the Festival
+
+Apply as a Vendor or Performer
+
+Each card includes:
+
+Icon or small blossom illustration
+
+Short description
+
+Clear CTA button
+
+Design: bright, uplifting, community-friendly.
+
+8. NEWSLETTER SIGNUP
+
+Simple 1-field email signup.
+Soft blossom background.
+
+Copy example:
+“Get bloom forecasts, event announcements, and festival updates sent straight to your inbox.”
+
+9. LAND ACKNOWLEDGEMENT
+
+A clean, respectful statement acknowledging the traditional territories of the Indigenous Nations connected to Abbotsford.
+
+Typography: smaller, centered.
+
+10. FOOTER
+
+Footer should include:
+
+About
+
+Events
+
+Blossom Map
+
+Gallery
+
+FAQ
+
+Contact
+
+Privacy
+
+Subtle blossom watermarks behind the footer.
+
+INTERACTION & BEHAVIOR GUIDELINES
+Animations
+
+Soft petal drift in hero
+
+Gentle hover raise on cards
+
+Fade-in on scroll
+
+Mobile UX
+
+Sticky bottom nav (optional): Home, Events, Map, Contact
+
+Large tap targets
+
+Quick-load hero
+
+Accessibility
+
+High contrast text
+
+All images must have descriptive alt text
+
+Keyboard-accessible menus
+
+DELIVERABLES
+
+The designer should produce:
+
+Full homepage design (desktop + tablet + mobile)
+
+Design system:
+
+Color swatches
+
+Typography styles
+
+Buttons & components
+
+Card styles
+
+Icon set
+
+Event page template
+
+Blossom map UI mockup
+
+Sponsor card designs
+
+Footer + navigation designs
