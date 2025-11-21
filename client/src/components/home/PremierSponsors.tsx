@@ -25,6 +25,10 @@ export function PremierSponsors() {
 
   return (
     <section className="relative -mt-20 z-10 px-4 max-w-7xl mx-auto pb-16">
+      <div className="text-center mb-8">
+        <p className="text-sm font-heading uppercase tracking-widest text-white/90 drop-shadow-md">Presented by Our Premier Sponsors</p>
+      </div>
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {sponsors.map((sponsor, index) => (
           <Card key={index} className="bg-white/95 backdrop-blur-sm border-pink-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
@@ -38,10 +42,6 @@ export function PremierSponsors() {
             </CardContent>
           </Card>
         ))}
-      </div>
-      
-      <div className="text-center mt-8">
-        <p className="text-sm font-heading uppercase tracking-widest text-gray-400">Presented by Our Premier Sponsors</p>
       </div>
     </section>
   );
