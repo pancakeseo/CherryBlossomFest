@@ -24,9 +24,9 @@ export function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             {[
               { name: "Home", path: "/" },
-              { name: "Events", path: "#" },
+              { name: "Events", path: "/events" },
               { name: "Map", path: "#" },
-              { name: "Gallery", path: "#" },
+              { name: "Gallery", path: "/gallery" },
               { name: "About", path: "/about" }
             ].map((item) => (
               <Link 
