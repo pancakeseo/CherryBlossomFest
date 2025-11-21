@@ -18,18 +18,24 @@ export function Navbar() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"}`}>
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className={`font-display font-bold text-xl ${scrolled ? "text-pink-600" : "text-white"}`}>
-            ACBF
+            <Link href="/">ACBF</Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            {["Home", "Events", "Map", "Gallery", "About"].map((item) => (
-              <a 
-                key={item} 
-                href="#" 
+            {[
+              { name: "Home", path: "/" },
+              { name: "Events", path: "#" },
+              { name: "Map", path: "#" },
+              { name: "Gallery", path: "#" },
+              { name: "About", path: "/about" }
+            ].map((item) => (
+              <Link 
+                key={item.name} 
+                href={item.path} 
                 className={`font-heading text-sm font-medium hover:text-pink-400 transition-colors ${scrolled ? "text-gray-600" : "text-white/90"}`}
               >
-                {item}
-              </a>
+                {item.name}
+              </Link>
             ))}
             <Button 
               size="sm" 
