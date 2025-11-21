@@ -1,37 +1,38 @@
-import { db } from "@db";
-import { 
-  type NewsletterSubscriber, 
-  type InsertNewsletterSubscriber,
-  newsletterSubscribers 
-} from "@shared/schema";
-import { eq } from "drizzle-orm";
+import { type User, type InsertUser } from "@shared/schema";
+import { randomUUID } from "crypto";
+
+// modify the interface with any CRUD methods
+// you might need
 
 export interface IStorage {
-  // Newsletter
-  createNewsletterSubscriber(subscriber: InsertNewsletterSubscriber): Promise<NewsletterSubscriber>;
-  getNewsletterSubscriberByEmail(email: string): Promise<NewsletterSubscriber | undefined>;
-  getAllNewsletterSubscribers(): Promise<NewsletterSubscriber[]>;
+  getUser(id: string): Promise<User | undefined>;
+  getUserByUsername(username: string): Promise<User | undefined>;
+  createUser(user: InsertUser): Promise<User>;
 }
 
-export class DatabaseStorage implements IStorage {
-  // Newsletter
-  async createNewsletterSubscriber(subscriber: InsertNewsletterSubscriber): Promise<NewsletterSubscriber> {
-    const [created] = await db.insert(newsletterSubscribers).values(subscriber).returning();
-    return created;
+export class MemStorage implements IStorage {
+  private users: Map<string, User>;
+
+  constructor() {
+    this.users = new Map();
   }
 
-  async getNewsletterSubscriberByEmail(email: string): Promise<NewsletterSubscriber | undefined> {
-    const [subscriber] = await db
-      .select()
-      .from(newsletterSubscribers)
-      .where(eq(newsletterSubscribers.email, email))
-      .limit(1);
-    return subscriber;
+  async getUser(id: string): Promise<User | undefined> {
+    return this.users.get(id);
   }
 
-  async getAllNewsletterSubscribers(): Promise<NewsletterSubscriber[]> {
-    return db.select().from(newsletterSubscribers);
+  async getUserByUsername(username: string): Promise<User | undefined> {
+    return Array.from(this.users.values()).find(
+      (user) => user.username === username,
+    );
+  }
+
+  async createUser(insertUser: InsertUser): Promise<User> {
+    const id = randomUUID();
+    const user: User = { ...insertUser, id };
+    this.users.set(id, user);
+    return user;
   }
 }
 
-export const storage = new DatabaseStorage();
+export const storage = new MemStorage();
