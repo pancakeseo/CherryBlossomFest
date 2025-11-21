@@ -5,23 +5,29 @@ import { Button } from "@/components/ui/button";
 export function PremierSponsors() {
   const sponsors = [
     {
-      title: "Browne Mortgages",
+      title: "Abbotsford Mortgage Broker",
       icon: Trophy,
-      description: "Browne Mortgages is a major contributor to the Abbotsford Cherry Blossom Festival and a trusted partner in our community. They provide comprehensive mortgage and mortgage refinancing services to Abbotsford residents, helping families achieve their homeownership dreams.",
+      description: "Abbotsford Mortgage Broker is a major contributor to the Abbotsford Cherry Blossom Festival and a trusted partner in our community.",
       color: "text-pink-500",
-      link: "https://www.brownemortgage.com/"
+      descriptionLink: {
+        text: "provide comprehensive mortgage and mortgage refinancing services",
+        url: "https://www.brownemortgage.com/"
+      },
+      descriptionSuffix: " to Abbotsford residents, helping families achieve their homeownership dreams."
     },
     {
       title: "Greek Islands Restaurant",
       icon: Heart,
       description: "Greek Islands Restaurant brings authentic Mediterranean flavors and warmth to our community. As a steadfast supporter of local events, they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration.",
-      color: "text-green-600"
+      color: "text-green-600",
+      link: undefined
     },
     {
       title: "First Page Marketing",
       icon: Building2,
       description: "First Page Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and culture of Abbotsford through strategic marketing support and creative vision.",
-      color: "text-purple-500"
+      color: "text-purple-500",
+      link: undefined
     }
   ];
 
@@ -40,7 +46,16 @@ export function PremierSponsors() {
                 <sponsor.icon className={`w-8 h-8 ${sponsor.color}`} />
               </div>
               <h3 className="font-heading font-bold text-xl mb-3 text-gray-800">{sponsor.title}</h3>
-              <p className="text-gray-600 font-body leading-relaxed mb-4">{sponsor.description}</p>
+              <p className="text-gray-600 font-body leading-relaxed mb-4">
+                {sponsor.description}
+                {sponsor.descriptionLink && (
+                  <>
+                    {" "}<a href={sponsor.descriptionLink.url} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-600 font-semibold underline">
+                      {sponsor.descriptionLink.text}
+                    </a>{sponsor.descriptionSuffix}
+                  </>
+                )}
+              </p>
               {sponsor.link && (
                 <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" className="text-pink-500 hover:text-pink-600 hover:bg-pink-50 p-0 h-auto font-semibold text-sm">
