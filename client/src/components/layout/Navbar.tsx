@@ -25,7 +25,7 @@ export function Navbar() {
             {[
               { name: "Home", path: "/" },
               { name: "Events", path: "/events" },
-              { name: "Map", path: "#" },
+              { name: "Map", path: "/map" },
               { name: "Gallery", path: "/gallery" },
               { name: "About", path: "/about" }
             ].map((item) => (
@@ -57,7 +57,7 @@ export function Navbar() {
           <Calendar className="w-5 h-5" />
           Events
         </a>
-        <a href="#" className="flex flex-col items-center gap-1 hover:text-pink-500 transition-colors">
+        <a href="/map" className="flex flex-col items-center gap-1 hover:text-pink-500 transition-colors">
           <Map className="w-5 h-5" />
           Map
         </a>

@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import About from "@/pages/about";
 import Gallery from "@/pages/gallery";
 import Events from "@/pages/events";
+import BlossomMap from "@/pages/map";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/about" component={About} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/events" component={Events} />
+      <Route path="/map" component={BlossomMap} />
       <Route component={NotFound} />
     </Switch>
   );
