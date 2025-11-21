@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.png";
 import marketImg from "@assets/generated_images/sakura_market_scene.png";
 import nightImg from "@assets/generated_images/night_blossom_walk.png";
+import bikeImg from "@assets/generated_images/blossom_bike_ride.png";
+import kidsArtImg from "@assets/generated_images/kids_art_zone.png";
 
 export function FeaturedEvents() {
   const events = [
@@ -34,13 +36,13 @@ export function FeaturedEvents() {
     {
       title: "Blossom Bike Ride",
       date: "April 18, 2026",
-      image: "https://images.unsplash.com/photo-1558981806-ec527fa84c3d?auto=format&fit=crop&q=80&w=800",
+      image: bikeImg,
       description: "A scenic community ride through the most pink-petaled routes in the city."
     },
     {
       title: "Kids Blossom Art Zone",
       date: "Family Day Special",
-      image: "https://images.unsplash.com/photo-1502086223501-681a6a8048e3?auto=format&fit=crop&q=80&w=800",
+      image: kidsArtImg,
       description: "Crafts, face painting, and creativity for the little ones."
     }
   ];
