@@ -1,24 +1,26 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Trophy, Heart, Building2 } from "lucide-react";
+import { Trophy, Heart, Building2, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function PremierSponsors() {
   const sponsors = [
     {
-      title: "Top Mortgage Broker",
+      title: "Browne Mortgages",
       icon: Trophy,
-      subtext: "Recognizing outstanding support for our community.",
-      color: "text-pink-500"
+      description: "Browne Mortgages is a major contributor to the Abbotsford Cherry Blossom Festival and a trusted partner in our community. They provide comprehensive mortgage and mortgage refinancing services to Abbotsford residents, helping families achieve their homeownership dreams.",
+      color: "text-pink-500",
+      link: "https://www.brownemortgage.com/"
     },
     {
       title: "Top Community Partner",
       icon: Heart,
-      subtext: "Strengthening Abbotsford through generosity and collaboration.",
+      description: "Strengthening Abbotsford through generosity and collaboration.",
       color: "text-green-600"
     },
     {
       title: "Top Cultural Contributor",
       icon: Building2,
-      subtext: "Honouring those uplifting local arts and culture.",
+      description: "Honouring those uplifting local arts and culture.",
       color: "text-purple-500"
     }
   ];
@@ -38,7 +40,14 @@ export function PremierSponsors() {
                 <sponsor.icon className={`w-8 h-8 ${sponsor.color}`} />
               </div>
               <h3 className="font-heading font-bold text-xl mb-3 text-gray-800">{sponsor.title}</h3>
-              <p className="text-gray-600 font-body leading-relaxed">{sponsor.subtext}</p>
+              <p className="text-gray-600 font-body leading-relaxed mb-4">{sponsor.description}</p>
+              {sponsor.link && (
+                <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" className="text-pink-500 hover:text-pink-600 hover:bg-pink-50 p-0 h-auto font-semibold text-sm">
+                    Visit Website <ExternalLink className="w-3 h-3 ml-2" />
+                  </Button>
+                </a>
+              )}
             </CardContent>
           </Card>
         ))}
