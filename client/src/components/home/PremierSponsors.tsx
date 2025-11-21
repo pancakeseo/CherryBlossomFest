@@ -12,15 +12,15 @@ export function PremierSponsors() {
       link: "https://www.brownemortgage.com/"
     },
     {
-      title: "Top Community Partner",
+      title: "Greek Islands Restaurant",
       icon: Heart,
-      description: "Strengthening Abbotsford through generosity and collaboration.",
+      description: "Greek Islands Restaurant brings authentic Mediterranean flavors and warmth to our community. As a steadfast supporter of local events, they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration.",
       color: "text-green-600"
     },
     {
-      title: "Top Cultural Contributor",
+      title: "First Page Marketing",
       icon: Building2,
-      description: "Honouring those uplifting local arts and culture.",
+      description: "First Page Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and culture of Abbotsford through strategic marketing support and creative vision.",
       color: "text-purple-500"
     }
   ];
