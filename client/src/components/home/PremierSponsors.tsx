@@ -13,7 +13,8 @@ export function PremierSponsors() {
         text: "provide comprehensive mortgage and mortgage refinancing services",
         url: "https://www.brownemortgage.com/"
       },
-      descriptionSuffix: " to Abbotsford residents, helping families achieve their homeownership dreams."
+      descriptionSuffix: " to Abbotsford residents, helping families achieve their homeownership dreams.",
+      link: undefined
     },
     {
       title: "Greek Islands Restaurant",
@@ -24,18 +25,20 @@ export function PremierSponsors() {
         text: "steadfast supporter of local events,",
         url: "https://www.gilsands.com/"
       },
-      descriptionSuffix: " they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration."
+      descriptionSuffix: " they nourish both body and spirit while strengthening Abbotsford through generosity and collaboration.",
+      link: undefined
     },
     {
-      title: "First Page Marketing",
+      title: "First Rate Marketing",
       icon: Building2,
-      description: "First Page Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and ",
+      description: "First Rate Marketing is dedicated to elevating local voices and amplifying community stories. They champion the arts and ",
       color: "text-purple-500",
       descriptionLink: {
         text: "culture of Abbotsford",
         url: "https://www.fpagemarketing.com/"
       },
-      descriptionSuffix: " through strategic marketing support and creative vision."
+      descriptionSuffix: " through strategic marketing support and creative vision.",
+      link: undefined
     }
   ];
 
