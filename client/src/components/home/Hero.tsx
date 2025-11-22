@@ -42,13 +42,13 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-4">
-        <motion.h1
+        <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="font-display text-5xl md:text-7xl lg:text-8xl mb-6 drop-shadow-lg"
         >
-          Abbotsford Mortgage Broker
+          Abbotsford Cherry <br/> Blossom Festival
         </motion.h1>
         
         <motion.p 

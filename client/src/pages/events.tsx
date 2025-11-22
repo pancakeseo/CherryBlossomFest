@@ -99,7 +99,7 @@ export default function Events() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
             <div>
               <span className="text-pink-500 font-heading font-bold uppercase tracking-widest text-sm">2026 Schedule</span>
-              <h2 className="font-display text-5xl md:text-6xl mt-2 text-gray-900">Festival Events</h2>
+              <h1 className="font-display text-5xl md:text-6xl mt-2 text-gray-900">Festival Events</h1>
             </div>
             
             <div className="flex flex-wrap gap-3 w-full md:w-auto">

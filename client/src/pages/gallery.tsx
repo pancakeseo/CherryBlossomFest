@@ -60,13 +60,13 @@ export default function Gallery() {
             >
               Captured Moments
             </motion.span>
-            <motion.h2
+            <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               className="font-display text-5xl md:text-6xl mt-2 mb-6 text-gray-900"
             >
               Festival Gallery
-            </motion.h2>
+            </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
