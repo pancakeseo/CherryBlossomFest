@@ -1,0 +1,9 @@
+{
+  "$schema": "https://bolt.build/schema.json",
+  "buildCommand": "npm run build",
+  "startCommand": "npm start",
+  "environment": {
+    "NODE_ENV": "production"
+  },
+  "outputDirectory": "dist/public"
+}
