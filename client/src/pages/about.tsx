@@ -37,14 +37,14 @@ export default function About() {
             >
               Our Story
             </motion.span>
-            <motion.h1 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
               className="font-display text-5xl md:text-7xl mb-6 drop-shadow-lg"
             >
               Rooted in Community
-            </motion.h1>
+            </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

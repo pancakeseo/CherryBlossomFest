@@ -151,7 +151,7 @@ export default function BlossomMap() {
         {/* Sidebar / List View */}
         <div className="w-full md:w-[400px] bg-white shadow-xl z-20 flex flex-col h-full border-r border-gray-200 order-2 md:order-1">
           <div className="p-6 border-b border-gray-100">
-            <h1 className="font-display text-2xl text-gray-900 mb-2">Blossom Map</h1>
+            <h2 className="font-display text-2xl text-gray-900 mb-2">Blossom Map</h2>
             <p className="text-sm text-gray-500 mb-4">Real-time bloom status updates</p>
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
