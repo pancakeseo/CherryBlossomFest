@@ -1,0 +1,3 @@
+# ABOUTME: Routes all paths to index.html so the SPA router handles navigation.
+# ABOUTME: Ensures Netlify serves the client app for deep links and refreshes.
+/* /index.html 200

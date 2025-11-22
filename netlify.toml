@@ -1,0 +1,9 @@
+# ABOUTME: Configures Netlify static deployment for the Vite-built client.
+# ABOUTME: Publishes the client build from dist/public with SPA-friendly settings.
+
+[build]
+  command = "npm run build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "20"
