@@ -35,7 +35,7 @@ export function PremierSponsors() {
       color: "text-purple-500",
       descriptionLink: {
         text: "culture of Abbotsford",
-        url: "https://www.fpagemarketing.com/"
+        url: "https://www.1stratemartteing.com/"
       },
       descriptionSuffix: " through strategic marketing support and creative vision.",
       link: undefined
