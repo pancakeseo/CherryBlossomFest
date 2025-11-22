@@ -14,7 +14,7 @@ export function usePageMeta({ title, description, canonicalPath = "", ogImage }:
 
     const baseUrl = "https://abbotsfordblossomfest.com";
     const canonicalUrl = `${baseUrl}${canonicalPath}`;
-    const defaultOgImage = `${baseUrl}/og-image.jpg`;
+    const defaultOgImage = `${baseUrl}/og-image.webp`;
     const imageUrl = ogImage || defaultOgImage;
 
     const metaTags = [

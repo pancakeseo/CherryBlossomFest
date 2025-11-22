@@ -72,16 +72,18 @@ Primary keywords included:
 
 1. **Update Domain:** All URLs currently use `https://abbotsfordblossomfest.com` - update this to your actual domain when deployed.
 
-2. **OG Image:** You need to create and upload an `og-image.jpg` (1200x630px) for social media previews. This should be a high-quality image of cherry blossoms from the festival.
+2. **Favicon Updated:** A beautiful pink cherry blossom favicon has been created and is now displayed in browser tabs.
 
-3. **Sitemap Dates:** Update the `<lastmod>` dates in sitemap.xml when you make content changes.
+3. **OG Image:** The social share image now uses `og-image.webp` (watercolor cherry blossoms). However, the current file is a placeholder. You need to replace `/client/public/og-image.webp` with an actual watercolor cherry blossom image (recommended size: 1200x630px) for proper social media previews.
 
-4. **Search Console:** After deployment:
+4. **Sitemap Dates:** Update the `<lastmod>` dates in sitemap.xml when you make content changes.
+
+5. **Search Console:** After deployment:
    - Submit sitemap to Google Search Console
    - Submit sitemap to Bing Webmaster Tools
    - Monitor indexing status
 
-5. **Twitter Handle:** Update `@AbbotsfordBlossom` to your actual Twitter handle if different.
+6. **Twitter Handle:** Update `@AbbotsfordBlossom` to your actual Twitter handle if different.
 
 ## Testing
 
