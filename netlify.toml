@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Ensure client-side routing works when deployed as static assets
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
