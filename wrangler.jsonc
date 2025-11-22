@@ -1,0 +1,7 @@
+{
+  "name": "cherry-blossom-fest",
+  "compatibility_date": "2024-11-22",
+  "assets": {
+    "directory": "./dist/public"
+  }
+}
