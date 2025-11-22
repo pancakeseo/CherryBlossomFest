@@ -1,11 +1,12 @@
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.png";
-import marketImg from "@assets/generated_images/sakura_market_scene.png";
-import nightImg from "@assets/generated_images/night_blossom_walk.png";
-import bikeImg from "@assets/generated_images/blossom_bike_ride.png";
-import kidsArtImg from "@assets/generated_images/kids_art_zone.png";
+import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.webp";
+import marketImg from "@assets/generated_images/sakura_market_scene.webp";
+import nightImg from "@assets/generated_images/night_blossom_walk.webp";
+import bikeImg from "@assets/generated_images/blossom_bike_ride.webp";
+// kids_art_zone.webp not available, using placeholder
+const kidsArtImg = "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=800";
 
 export function FeaturedEvents() {
   const events = [

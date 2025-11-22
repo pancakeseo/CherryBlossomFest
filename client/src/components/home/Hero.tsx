@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/hero_image_of_cherry_blossoms_in_abbotsford.png";
+import heroImage from "@assets/generated_images/hero_image_of_cherry_blossoms_in_abbotsford.webp";
 
 export function Hero() {
   return (

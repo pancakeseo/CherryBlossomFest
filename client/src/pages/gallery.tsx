@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { X } from "lucide-react";
 
-import watercolorImg from "@assets/generated_images/watercolor_cherry_blossoms.png";
-import aerialImg from "@assets/generated_images/aerial_park_view.png";
-import childImg from "@assets/generated_images/child_playing_with_petals.png";
-import lanternImg from "@assets/generated_images/lantern_festival_night.png";
-import blossomCloseUp from "@assets/generated_images/close_up_artistic_blossom.png";
-import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.png";
-import marketImg from "@assets/generated_images/sakura_market_scene.png";
-import concertImg from "@assets/generated_images/outdoor_acoustic_concert.png";
+import watercolorImg from "@assets/generated_images/watercolor_cherry_blossoms.webp";
+import aerialImg from "@assets/generated_images/aerial_park_view.webp";
+import childImg from "@assets/generated_images/child_playing_with_petals.webp";
+import lanternImg from "@assets/generated_images/lantern_festival_night.webp";
+import blossomCloseUp from "@assets/generated_images/close_up_artistic_blossom.webp";
+import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.webp";
+import marketImg from "@assets/generated_images/sakura_market_scene.webp";
+import concertImg from "@assets/generated_images/outdoor_acoustic_concert.webp";
 
 const categories = ["All", "Nature", "Community", "Art", "Night"];
 

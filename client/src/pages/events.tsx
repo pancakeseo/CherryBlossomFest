@@ -6,12 +6,12 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
-import concertImg from "@assets/generated_images/outdoor_acoustic_concert.png";
-import walkImg from "@assets/generated_images/guided_nature_walk.png";
-import workshopImg from "@assets/generated_images/art_workshop_outdoors.png";
-import lanternImg from "@assets/generated_images/lantern_festival_night.png";
-import marketImg from "@assets/generated_images/sakura_market_scene.png";
-import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.png";
+import concertImg from "@assets/generated_images/outdoor_acoustic_concert.webp";
+import walkImg from "@assets/generated_images/guided_nature_walk.webp";
+import workshopImg from "@assets/generated_images/art_workshop_outdoors.webp";
+import lanternImg from "@assets/generated_images/lantern_festival_night.webp";
+import marketImg from "@assets/generated_images/sakura_market_scene.webp";
+import picnicImg from "@assets/generated_images/picnic_under_blossom_trees.webp";
 
 const events = [
   {

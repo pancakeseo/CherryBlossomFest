@@ -2,9 +2,9 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/home/Footer";
 import { Newsletter } from "@/components/home/Newsletter";
 import { motion } from "framer-motion";
-import plantingImg from "@assets/generated_images/community_planting_cherry_trees.png";
-import blossomImg from "@assets/generated_images/close_up_artistic_blossom.png";
-import teamImg from "@assets/generated_images/festival_organizers_team.png";
+import plantingImg from "@assets/generated_images/community_planting_cherry_trees.webp";
+import blossomImg from "@assets/generated_images/close_up_artistic_blossom.webp";
+import teamImg from "@assets/generated_images/festival_organizers_team.webp";
 import { Separator } from "@/components/ui/separator";
 
 export default function About() {

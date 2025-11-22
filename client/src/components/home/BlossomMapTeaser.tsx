@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
-import petalTexture from "@assets/generated_images/soft_petal_texture_background.png";
+import petalTexture from "@assets/generated_images/soft_petal_texture_background.webp";
 
 export function BlossomMapTeaser() {
   return (
