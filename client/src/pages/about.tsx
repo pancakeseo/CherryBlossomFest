@@ -6,8 +6,15 @@ import plantingImg from "@assets/generated_images/community_planting_cherry_tree
 import blossomImg from "@assets/generated_images/close_up_artistic_blossom.webp";
 import teamImg from "@assets/generated_images/festival_organizers_team.webp";
 import { Separator } from "@/components/ui/separator";
+import { usePageMeta } from "@/hooks/use-page-meta";
 
 export default function About() {
+  usePageMeta({
+    title: "About Us",
+    description: "Learn about the Abbotsford Cherry Blossom Festival's mission, values, and the dedicated team bringing our community together to celebrate nature's beauty.",
+    canonicalPath: "/about",
+  });
+
   return (
     <div className="min-h-screen bg-background font-sans selection:bg-pink-200 selection:text-pink-900 pb-16 md:pb-0">
       <Navbar />

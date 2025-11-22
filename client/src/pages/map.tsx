@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { usePageMeta } from "@/hooks/use-page-meta";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
@@ -127,10 +128,16 @@ function MapController({ selectedLocation }: { selectedLocation: typeof location
 }
 
 export default function BlossomMap() {
+  usePageMeta({
+    title: "Cherry Blossom Map",
+    description: "Find the best cherry blossom viewing spots in Abbotsford. Interactive map showing bloom locations, accessibility info, and peak viewing times across the city.",
+    canonicalPath: "/map",
+  });
+
   const [selectedLocation, setSelectedLocation] = useState<typeof locations[0] | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredLocations = locations.filter(loc => 
+  const filteredLocations = locations.filter(loc =>
     loc.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
     loc.type.toLowerCase().includes(searchQuery.toLowerCase())
   );

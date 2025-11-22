@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { X } from "lucide-react";
+import { usePageMeta } from "@/hooks/use-page-meta";
 
 import watercolorImg from "@assets/generated_images/watercolor_cherry_blossoms.webp";
 import aerialImg from "@assets/generated_images/aerial_park_view.webp";
@@ -32,11 +33,17 @@ const galleryItems = [
 ];
 
 export default function Gallery() {
+  usePageMeta({
+    title: "Photo Gallery",
+    description: "Explore stunning photos from past Abbotsford Cherry Blossom Festivals. View images of blooming trees, community events, night walks, and joyous moments shared under the blossoms.",
+    canonicalPath: "/gallery",
+  });
+
   const [activeCategory, setActiveCategory] = useState("All");
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const filteredItems = activeCategory === "All" 
-    ? galleryItems 
+  const filteredItems = activeCategory === "All"
+    ? galleryItems
     : galleryItems.filter(item => item.category === activeCategory);
 
   return (

@@ -1,0 +1,11 @@
+# Robots.txt for Abbotsford Cherry Blossom Festival
+# https://abbotsfordblossomfest.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://abbotsfordblossomfest.com/sitemap.xml
+
+# Crawl delay (optional, helps reduce server load)
+Crawl-delay: 1

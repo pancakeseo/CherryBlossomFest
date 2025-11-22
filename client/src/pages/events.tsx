@@ -5,6 +5,7 @@ import { Calendar, MapPin, Clock, ArrowRight, Filter } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { usePageMeta } from "@/hooks/use-page-meta";
 
 import concertImg from "@assets/generated_images/outdoor_acoustic_concert.webp";
 import walkImg from "@assets/generated_images/guided_nature_walk.webp";
@@ -83,6 +84,12 @@ const events = [
 ];
 
 export default function Events() {
+  usePageMeta({
+    title: "2026 Festival Events",
+    description: "Browse all events at the 2026 Abbotsford Cherry Blossom Festival including picnics, night walks, markets, concerts, workshops, and guided tours through the cherry blossoms.",
+    canonicalPath: "/events",
+  });
+
   return (
     <div className="min-h-screen bg-background font-sans pb-16 md:pb-0">
       <Navbar />
